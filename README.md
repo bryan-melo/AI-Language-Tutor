@@ -1,4 +1,4 @@
-# Jetson Orin Nano AI-Powered Web Application
+# AI Language Tutor using a Jetson Orin Nano Super
 
 ## Table of Contents 
 - [Problem Statement](#problem-statement)
