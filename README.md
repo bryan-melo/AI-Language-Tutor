@@ -1,1 +1,2 @@
-# AI-Language-Tutor
+# Jetson Orin Nano AI-Powered Web Application
+
