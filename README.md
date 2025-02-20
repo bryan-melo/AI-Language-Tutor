@@ -45,4 +45,45 @@ using NVIDIA’s TAO Toolkik (Train, Adapt, Optimize) to enhance speech recognit
 ### Generative AI for Error Feedback
 After the speech-to-text process is completed, the generated string will be compared to the expected string from the course. If a mistake is detected, generative AI will provide feedback by identifying mispronounced words and offer corrective guidance. A prompt will be generated using the mispronounced word(s), instructing the AI to assist with pronunciation while also providing definitions and examples sentences demonstrating their usage in different contexts. The lesson will continue only after the correct input is detected. The exact implementation of generative AI integration is still under consideration and will require further research as the project progresses.
 
+## Features
 
+## Software Stack
+
+## Hardware Requirements
+
+## Installation
+
+## Usage
+
+## API Endpoints
+
+## Contributing
+1. Fork the repository
+2. Clone your forked repository to your local machine:
+   ```bash
+      git clone https://github.com/your-username/AI-Language-Tutor.git
+   ```
+   - Replace **your-username** with GitHub username
+3. Navigate into the project directory:
+   ```bash
+      cd AI-Language-Tutor
+   ```
+4. Sync your forked repository with the main repository:
+   ```bsh
+      git remote add upstream https://github.com/bryan-melo/AI-Language-Tutor.git
+   ```
+5. Create a new branch for your changes:
+   ```bash
+     git checkout -b branch-name
+   ```
+6. Commit your changes:
+   ```bash
+     git commit -m "Message describing changes"
+   ```
+7. Push changes to your branch:
+   ```bash
+     git push origin branch-name 
+   ```
+8. Open a Pull Request (PR)
+   
+## License
