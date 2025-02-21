@@ -1,17 +1,16 @@
-# AI Language Tutor using a Jetson Orin Nano Super
+# AI-Powered Language Tutor using a Jetson Orin Nano Super
 
 ## Table of Contents 
 - [Problem Statement](#problem-statement)
 - [Solution](#solution)
-- [Approach](#approach)
-- [Features](#features)
-- [Software Stack](#software-stack)
 - [Hardware Requirements](#hardware-requirements)
+- [Software Stack](#software-stack)
+- [System Architecture](#system-architecture)
+- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Problem Statement
 
@@ -21,7 +20,41 @@ Learning a new language can be challenging, especially when the main methods of 
 
 Our project aims to create a simple yet interactive approach to language learning. Imagine a system where users can practice speaking a new language using a device and receive immediate feedback. This device will automatically update their progress in a web application, enabling them to track development and share achievements with others. By focusing on speaking rather than passive learning, users can benefit from an effective and engaging approach to language learning
 
-## Approach
+## Hardware Requirements
+
+- **Jetson Orin Nano Super Developer Kit**
+- **Storage**: 1 TB SSD NVMe 4.0
+- **Microphone**: ReSpeaker Mic Array v2.0
+- **Speaker**: Mono Enclosed Speaker 4R 5W
+
+## Software Stack
+
+### Jetson Orin Nano Super
+- **Operating System**: Jetson Linux 36.4.3
+- **Speech Processing Libraries**:
+  - NVIDIA Riva
+  - OpenAI Whisper
+- **Fine-tuning Pre-trained Models**: NVIDIA TAO Toolkit
+- **API Communication**: Python `httpx` library for asynchronous API calls
+
+### Web Application
+
+#### Frontend
+- **Programming Languages**: JavaScript
+- **Markup & Styling**: CSS3, HTML5
+- **Data Visualization**: Google Charts JS
+
+#### Backend
+- **Programming Languages**: Python
+- **Framework**: FastAPI
+- **Database**: SQLite3
+
+### AI Models for Error Feedback
+- Qwen 2.5 (3B model)
+- LLaMA 3.2 (3B model)
+- Gemma (2B model)
+
+## System Architecture
 
 The development of this project will leverage software optimized for Jetson Orin Nano, pre-trained language models that may be fine-tuned, and frontend and backend components from a previous project. The system consists of several key components that interact to create an engaging AI language-learning tutor.
 
@@ -55,10 +88,6 @@ using NVIDIA’s TAO Toolkik (Train, Adapt, Optimize) to enhance speech recognit
 After the speech-to-text process is completed, the generated string will be compared to the expected string from the course. If a mistake is detected, generative AI will provide feedback by identifying mispronounced words and offer corrective guidance. A prompt will be generated using the mispronounced word(s), instructing the AI to assist with pronunciation while also providing definitions and examples sentences demonstrating their usage in different contexts. The lesson will continue only after the correct input is detected. The exact implementation of generative AI integration is still under consideration and will require further research as the project progresses.
 
 ## Features
-
-## Software Stack
-
-## Hardware Requirements
 
 ## Installation
 
