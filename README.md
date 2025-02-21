@@ -94,8 +94,3 @@ After the speech-to-text process is completed, the generated string will be comp
      git push origin branch-name 
    ```
 8. Open a Pull Request (PR)
-   
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
