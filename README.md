@@ -31,9 +31,7 @@ Our project aims to create a simple yet interactive approach to language learnin
 
 ### Jetson Orin Nano Super
 - **Operating System**: Jetson Linux 36.4.3
-- **Speech Processing Libraries**:
-  - NVIDIA Riva
-  - OpenAI Whisper
+- **Speech Processing Libraries**: NVIDIA Riva
 - **Fine-tuning Pre-trained Models**: NVIDIA TAO Toolkit
 - **API Communication**: Python `httpx` library for asynchronous API calls
 
