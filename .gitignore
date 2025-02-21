@@ -1,0 +1,51 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*.so
+*.dll
+*.dylib
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+*.env
+
+# Jetson-related logs and system files
+/var/log/
+*.log
+*.swap
+
+# FastAPI and Python dependencies
+*.db
+*.sqlite
+*.sqlite3
+instance/
+db.sqlite3
+
+# Node.js dependencies (if frontend uses JavaScript)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Compiled JavaScript files
+dist/
+build/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets & Configurations
+config.json
+secrets.json
+.env.local
